@@ -7,7 +7,7 @@ export default function MainSection(props){
                 </div>
                 <section>
                     <span className="location-info">
-                        <img className="map-icon" src="/public/map-icon.png" alt="map-icon" />
+                        <img className="map-icon" src="/map-icon.png" alt="map-icon" />
                         <div className="location-country">{props.country}</div>
                         <a href={props.googleMapsLink} target="_blank">View on Google Maps</a>
                     </span>
