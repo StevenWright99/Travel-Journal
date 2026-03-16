@@ -1,0 +1,153 @@
+html {
+  font-family: Inter, Arial;
+  background-color: #E5E5E5;
+}
+
+body {
+  margin: 0;
+  background-color: #E5E5E5;
+}
+
+.container {
+  /* border: 10px solid white; */
+  outline: 20px solid rgb(240, 242, 243);
+  border-radius: 2%;
+  background-color: #FFFFFF;
+  width: 550px;
+  height: fit-content;
+  margin: 50px auto;
+  overflow: hidden;
+  /*Prevents any child elements inside from sticking out*/
+}
+
+header {
+  /* margin: 10px; */
+  width: auto;
+  height: 56px;
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid black; */
+}
+
+.globe {
+  margin-right: 0px;
+  /* width: 24px; */
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid green; */
+}
+
+.header_text {
+  margin-left: 4px;
+  color: white;
+  font-weight: 500;
+  font-size: 14.46px;
+  display: flex;
+  /* justify-content: center; */
+  /* border: 2px solid green; */
+  width: fit-content;
+}
+
+/* MAIN SECTION */
+.imageBox {
+  width: 100px;
+  /* border: 2px solid black; */
+  overflow: hidden;
+  height: 168px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.mt-fuji {
+  width: 252px;
+  /* margin: 0 auto; */
+}
+
+.entry {
+  display: flex;
+  /* border: 2px solid black; */
+  align-items: center;
+  padding-bottom: 20px;
+  /* padding-top: 100px; */
+  position: relative;
+  /* top: -15px; */
+}
+
+.location-info {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid black; */
+  width: fit-content;
+  font-size: 10.24px;
+  font-weight: 400;
+  align-items: baseline;
+  position: relative;
+  left: 20px;
+}
+
+.map-icon {
+  width: 7px;
+  padding-right: 6px;
+}
+
+.location-country {
+  letter-spacing: -0.8px;
+  width: fit-content;
+  /* border: 2px solid black; */
+  padding-right: 15px;
+}
+
+a {
+  color: #918E9B;
+  /* border: 2px solid green; */
+  width: fit-content;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 25px;
+  position: relative;
+  top: 4px;
+  left: 20px;
+}
+
+.dates {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+  left: 20px;
+  top: 25px;
+}
+
+.info {
+  margin: 0;
+  width: 326px;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  left: 20px;
+  top: 40px;
+}
+
+.divider{
+  background-color: #F5F5F5;
+  height: 1px;
+  width: 478px;
+  position: relative;
+  top: 12px;
+  left: 40px;
+}
